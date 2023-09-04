@@ -1,0 +1,26 @@
+/*
+Theme Name: Chennai Institute of Technology
+Theme URI: /public_html/wp-content/themes/
+Author: AES
+Author URI: https://www.advanceecomsolutions.com/
+Description: <strong>Chennai Institute of technology,</strong> the best engineering college in Chennai was established with the objective of providing quality technical education with adequate industrial exposure than any other engineering colleges in Chennai, caters the needs of the youth with its innovative teaching methods.
+Version: 1.0
+License: AES
+License URI: URI: https://www.advanceecomsolutions.com/
+Text Domain: https://www.citchennai.edu.in/
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+/**
+ * 1.0 - Normalize
+ */
+
+html { font-family: sans-serif; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; } 
+body { margin: 0; } 
+article, aside, details, figcaption, figure, footer, header, main, menu, av, section,summary { display: block; }
+audio, canvas, progress, video { display: inline-block; vertical-align: baseline; } 
+audio:not([controls]) { display: none; height: 0; } 
+[hidden], template { display: none; }

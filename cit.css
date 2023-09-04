@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+
+:root{
+    --orange:#eba13f;
+    --white:#fff;
+    --box-shadow: .5rem 1.5rem rgba(0,0,0,.1);
+}
+
+
+*{
+    font-family: 'Roboto',sans-serif;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    text-transform: capitalize;
+    transition: all.2s linear;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+
+}
+
+header{
+    position: relative;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    background: var(--orange);
+    padding: 1rem 7%;
+    display: flex;
+    align-items : center;
+    justify-content: space-between;
+    box-shadow: var(--box-shadow);
+}
+
+header .logo img
+{
+    height: 70px;
+}
+header .navbar a{
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 0.5rem 1.5rem;
+    color: var(--white);
+    border: .1rem solid transparent;
+}
+
+
+header .navbar a:hover{
+    color: #000;
+    border: .1rem solid #fff;
+    border-width: .5rem;
+}
+
+header .icons i{
+    cursor: pointer;
+    width: 4rem;
+    height: 4.5rem;
+    background-color: #fff;
+    text-align: center;
+    line-height: 5rem;
+    font-size: 2rem;
+    color: var(--orange);
+}
+
+header .icons i:hover{
+    color: #000;
+}
+
+.image{
+    height: 70vh;
+    width: 140vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 80px;
+}
+
+.image h1{
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.image1{
+    height: 70vh;
+    width: 140vw;
+    background-repeat: no-repeat;
+    align-items: center;
+    background-size: cover;
+    margin-left: 440px;
+}
+
+.image1 h1{
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+    color: purple;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.options{
+    margin-top: 1px;
+    display:block;
+    justify-content: center;
+}
+
+.options h1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 40px;
+    display: flex;
+    color: purple;
+    align-items: center;
+    justify-content: center;
+}
+
+.chairman h1{
+    color: purple;
+}
+.chairman{
+    margin-bottom: 190px;
+}
+
+.options a h1{
+    
+    font-size: 25px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.options .first{
+    display: flex;
+    align-items: center;
+    margin-left: 120px;
+}
+.options .second{
+    display: flex;
+    align-items: center;
+    margin-left: 120px;
+}
+
+.row1{
+    height: 160px;
+    
+    text-align: center;
+    justify-content: center;
+    flex-basis: 30%;
+    background: var(--orange);
+    border-radius: 40px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 0px;
+    box-sizing: border-box;
+    border: .4rem solid black;
+}
+
+.row2{
+    height: 160px;
+    font-size: 2rem;
+    text-align: center;
+    justify-content: center;
+    flex-basis: 30%;
+    background: var(--orange);
+    border-radius: 40px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 0px;
+    border: .4rem solid black;
+}
+
+.row3{
+    height: 160px;
+    font-size: 2rem;
+    text-align: center;
+    justify-content: center;
+    flex-basis: 30%;
+    background: var(--orange);
+    border-radius: 40px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 0px;
+    box-sizing: border-box;
+    border: .4rem solid black;
+}
+
+.row4{
+    height: 160px;
+    font-size: 2rem;
+    text-align: center;
+    justify-content: center;
+    flex-basis: 30%;
+    background: var(--orange);
+    border-radius: 40px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 0px;
+    box-sizing: border-box;
+    border: .4rem solid black;
+}
+
+.row5{
+    height: 160px;
+    font-size: 2rem;
+    text-align: center;
+    justify-content: center;
+    flex-basis: 30%;
+    background: var(--orange);
+    border-radius: 40px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 0px;
+    box-sizing: border-box;
+    border: .4rem solid black;
+}
+
+.row6{
+    height: 160px;
+    font-size: 2rem;
+    text-align: center;
+    justify-content: center;
+    flex-basis: 30%;
+    background: var(--orange);
+    border-radius: 40px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 0px;
+    box-sizing: border-box;
+    border: .4rem solid black;
+}
+
+.chairman {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 120px;
+    font-size: 35px;
+}
+
+.chairman .hold{
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.chairman .hold .imag {
+    height: 190px;
+    width: 260px;
+    margin-left: 150px;
+    border: 6rem solid black;
+ 
+}
+
+.chairman .hold .text {
+    margin-left: 200px;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    align-items: center;
+    box-sizing: border-box;
+    border: .8rem solid black;
+    border-radius: 25px;
+    padding: 35px;
+    background-color: #eba13f;
+    font-weight: bold;
+}
+
+.chairman .hold .text h1{
+    color: rgb(161, 19, 161);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+
+.college .first{
+    flex-basis: 30%;
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+    margin-left: 80px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.college .second{
+    flex-basis: 30%;
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+    margin-left: 80px;
+    position: relative;
+    overflow: hidden;
+}
+.college img{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    padding-top: 70px;
+}
+ 
+.college h1{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 70px;
+    color: purple;
+}
+.college p{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 20px;
+    
+}

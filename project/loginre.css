@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:url("https://thumbs.dreamstime.com/z/graduate-cap-diploma-background-gold-stars-graduate-cap-diploma-background-whirlwind-gold-stars-175917258.jpg");
+    height: 100vh;
+    background-position: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.logo{
+    font-size: 35px;
+    font-family:Arial;
+    padding-left: 20px;
+    float:left;
+    padding-top: 10px;
+}
+.hero{
+    margin:0%;
+    height: 90%;
+    width: 100%;        
+
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+
+}
+ 
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float:left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 200px;
+    margin-top: 23px;
+    font-size: 20px;
+    
+}
+ul li a{
+    text-decoration: dotted;
+    color: black;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out ;
+}
+ul li a:hover{
+    color: red;
+}
+
+.form-box{
+    height: 450px;
+    width: 360px;
+    position: relative;
+    margin: 10% 40%;
+    background:black;
+    padding: 8px;
+    overflow: hidden;
+}
+.button-box{
+    width: 220px;
+    margin: 35px auto;
+    border-radius: 30px;
+    position: relative;
+    box-shadow: 0 0 20px 9px #ff61241f
+
+}
+.toggle-btn{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline:none;
+    position: relative;
+
+}
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height:100% ;
+    background: linear-gradient(to right,#ff105f,#ffad06);
+    border-radius: 30px;
+    transition: .5s  ;
+
+
+}
+.input-group{
+    top:180px;
+    position: absolute;
+    width:280px;
+    transition:.5s;
+    
+
+}
+.input-field{
+    width:100%;
+    padding: 10px 0 ;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+.submit-btn{
+    width: 65%;
+    
+    padding: 10px 20px;
+    cursor:pointer;
+    display:block;
+    margin:auto;
+    background: linear-gradient(to right,#ff105f,#ffad06);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+
+}
+.check-box{
+    margin: 30px 10px 30px 0;
+
+}
+span{
+    color:white;
+    font-size: 12px;
+    bottom: 68px;
+    position: absolute;
+}
+#login{
+    left: 50px;
+}
+#register{
+    left:450px;
+}

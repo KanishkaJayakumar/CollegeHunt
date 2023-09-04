@@ -1,0 +1,131 @@
+/*
+ * jQuery FlexSlider v1.8
+ * http://flex.madebymufffin.com
+ *
+ * Copyright 2011, Tyler Smith
+ * Free to use under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ */
+ #container {width: 80%; max-width: 800px; margin: 0 auto;}
+/* Browser Resets */
+.flex-container a:active,
+.flexslider a:active {outline: none;}
+.slides,
+.flex-control-nav,
+.flex-direction-nav {margin: 0; padding: 0; list-style: none;} 
+
+/* FlexSlider Necessary Styles
+*********************************/ 
+.flexslider {width: 100%; margin: 0; padding: 0; float:left; position:relative;}
+.banner-section .flexslider:after{background:url(../images/loading.gif) no-repeat center center;width:50px; height:50px; content:""; display:inline-block; position:absolute; top:42%;}
+.flexslider .slides > li {display: none;} /* Hide the slides before the JS is loaded. Avoids image jumping */
+.flexslider .slides img {max-width: 100%; display: block; width:100%; }
+.flex-pauseplay span {text-transform: capitalize;}
+.flexslider .slides > li:after { position: absolute; display: block; content: ""; left: 0; top:0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.3)}
+
+/* Clearfix for the .slides element */
+/*.slides:after {content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;} */
+html[xmlns] .slides {display: block;} 
+* html .slides {height: 1%;}
+
+/* No JavaScript Fallback */
+/* If you are not using another script, such as Modernizr, make sure you
+ * include js that eliminates this class on page load */
+.no-js .slides > li:first-child {display: block;}
+
+
+/* FlexSlider Default Theme
+*********************************/
+.flexslider { position: relative; zoom: 1; min-height:498px; background:url(../images/loader.svg) no-repeat center center #ededeb;}
+.flexslider .slides {zoom: 1;}
+.flexslider .slides > li {position: relative;}
+
+/* Suggested container for "Slide" animation setups. Can replace this with your own, if you wish */
+.flex-container {zoom: 1; position: relative;}
+.flexslider .slides li img { width:100%; float:left; }
+
+
+
+/* Caption style */
+/* IE rgba() hack */
+.flex-caption { zoom: 1; }
+/*.flex-caption:after{ border:8px solid #fff; width: 386px; height:203px; box-shadow: 0px 0px 5px #CCC;content: "";display: block;left: 0;position: absolute;top: 0px;width: 100%;}*/
+.flex-caption {  position: absolute; padding:0; width: 100%;  bottom:24%; left:0%;z-index: 999; text-align: center;}
+.flex-caption h1{ display:block; font-size:40px; color:#fff;font-family: 'Barlow-SemiBold'; line-height:46px; text-shadow: 2px 2px rgba(0, 0, 0, 0.7); }
+.flex-caption h2{ display:block; color: #fcbe00; font-size: 35px; font-family: 'playfairdisplay-italic'; line-height: 40px;}
+
+/* Direction Nav */
+.flex-direction-nav li a {width:39px; height:40px; margin:0 0 0 0; display: block; z-index:100; /*background: url(../images/aero-lft.png) no-repeat 0 0;*/ position: absolute; bottom: 27px; cursor: pointer; /*-webkit-transition: All 0.5s ease; -moz-transition: All 0.5s ease; -o-transition: All 0.5s ease; -ms-transition: All 0.5s ease; transition: All 0.5s ease;*/ }
+
+.flex-direction-nav li .flex-next:hover { opacity:0.7}
+.flex-direction-nav li .flex-prev:hover {opacity:0.7}
+.flex-direction-nav li .disabled {opacity:.3; filter:alpha(opacity=30); cursor: default;}
+/*.flex-direction-nav { position: absolute; width:100%;}*/
+
+
+/* Control Nav */
+.flex-control-nav {width: 100%; position: absolute; bottom:19px; z-index:9; text-align:center; left:0; right:0; margin:0px auto; }
+.flex-control-nav li {margin:0 10px 0 0; display: inline-block; zoom: 1; *display: inline;}
+.flex-control-nav li a {width: 10px; height: 10px; display: block; cursor: pointer; text-indent: 99999px;  border-radius:25px; background: #fff;}
+.flex-control-nav li a:hover, .flex-control-nav li a.flex-active {background: #dcb50e;}
+.flexslider .slides { overflow: hidden; }
+
+
+
+.flex-active-slide .flex-caption h1 {
+-webkit-animation:fadeInLeft ease-in 1;
+-moz-animation:fadeInLeft ease-in 1;
+-o-animation:fadeInLeft ease-in 1;
+animation:fadeInLeft ease-in 1;
+-moz-animation-duration:1s;
+-o-animation-duration:1s;
+animation-duration:1s;
+}
+@keyframes fadeInLeft {
+	0% {
+		opacity: 0;
+		-webkit-transform: translateX(-100px);
+		-moz-transform: translateX(-100px);
+		-ms-transform: translateX(-100px);
+		transform: translateX(-100px);
+	  }
+	
+	  100% {
+		opacity: 1;
+		-webkit-transform: translateX(0);
+		-moz-transform: translateX(0);
+		-ms-transform: translateX(0);
+		transform: translateX(0);
+	  }
+}
+
+.flex-active-slide .flex-caption h2 {
+	-webkit-animation:fadeInRight ease-in 1;
+	-moz-animation:fadeInRight ease-in 1;
+	-o-animation:fadeInRight ease-in 1;
+	animation:fadeInRight ease-in 1;
+	-moz-animation-duration:1s;
+	-o-animation-duration:1s;
+	animation-duration:1s;
+	}
+	@keyframes fadeInRight {
+		0% {
+			opacity: 0;
+			-webkit-transform: translateX(100px);
+			-moz-transform: translateX(100px);
+			-ms-transform: translateX(100px);
+			transform: translateX(100px);
+		  }
+		
+		  100% {
+			opacity: 1;
+			-webkit-transform: translateX(0);
+			-moz-transform: translateX(0);
+			-ms-transform: translateX(0);
+			transform: translateX(0);
+		  }
+	}
+
+
+
+

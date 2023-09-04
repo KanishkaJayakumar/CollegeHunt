@@ -1,0 +1,463 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* .inner-img-box{width:100%; float:left; text-align:center;}
+.inner-img-box img{max-width:100%; width:auto; padding:4px; border:3px solid #eee;}
+.departments.infre-dept{width:100%; float:left; padding:15px 0; margin:0;}
+.departments.infre-dept ul li{width:48.75%; margin-right:2.5%;  margin-bottom:20px;}
+.departments.infre-dept ul li:nth-child(2n+2){ margin-right:0;}
+.departments.infre-dept ul li:nth-child(3n+3){ margin-right:2.5%;}
+.departments.infre-dept ul li .dept-cnt{ padding: 40px 25px 25px;}
+ */
+
+input[type="submit"], input[type="button"], input[type="text"], input[type="password"], input[type="email"], textarea { -webkit-border-radius:0; -webkit-appearance: none; }
+a[href^=tel] {
+text-decoration:inherit;
+color: inherit;
+ 
+}
+@media only screen and (max-width: 1366px) {
+
+}
+@media only screen and (max-width: 1280px) {
+
+}
+@media screen and (min-width:1367px) and (max-width:1725px) {.flexslider {min-height: 500px;}}
+
+@media screen and (min-width:1024px) and (max-width:1279px) {
+img {max-width:100%; }
+.row{ width:1000px;}
+
+.ddsmoothmenu ul li a { padding:18px 18px;font-size: 14px;}
+.ddsmoothmenu ul li.dropdown a span { right: 0;}
+.flexslider {min-height:inherit;}
+.hdr-inn { padding: 10px 15px 0 15px;}
+
+.nabh-logo ul li.admission-open {display:none;}
+.welcome-pad { padding-top:30px; padding-bottom: 70px;}
+.infra-home { margin-bottom: 40px;}
+#news-sec .owl-nav { top:30%;}
+#news-sec.owl-theme .owl-controls .owl-nav .owl-prev { left:0;}
+#news-sec.owl-theme .owl-controls .owl-nav .owl-next { right:0;}
+
+.map{ margin-top:25px;}
+.contact{ margin:30px 0 0 0;}
+.contact h2{ margin-bottom:30px;}
+.departments ul li .dept-cnt{padding: 40px 10px 25px 10px; min-height: 130px;}
+.departments ul li .dept-cnt h3{ font-size:18px;}
+
+.infrastructure-facilities-more li{min-height:460px;}
+.dept-container .mix .faculty-list-cnt {width: 60%;float: left;}
+
+.news-sec .item .news-cont {min-height: 213px;}
+.news-sec {padding-bottom: 25px;}
+.reg-block.wid-mod select {width: 151px;}
+.reg-block.pre-ference ul li select {width: 90%;}
+}
+    
+@media screen and (min-width:768px) and (max-width:1023px) {
+img {max-width:100%; }
+.row{ width:750px;}
+.mobNav { display:block;}
+.m-menu {display: block;}
+.menu-wrap{display: none;}
+.m-menu{margin-top: 10px;}
+
+header {height: 100px;}
+.flexslider {min-height:inherit;}
+.ddsmoothmenu  { display:none; }
+.nabh-logo { float:right; width:30%; text-align:center; margin-top: 5px;}
+.nabh-logo ul li, .nabh-logo ul li.tnea { float:none;display: inline-block;}
+.nabh-logo ul li.tnea { padding: 8px 20px; width: auto; float: right;}
+.nabh-logo ul li img { display: none;}
+.nabh-logo ul li.admission-open{ display: none;}
+
+.is-sticky .hdr-inn { padding:10px 20px;}
+.is-sticky .logo-top { display:block;}
+.is-sticky .nabh-logo { display:none;}
+.is-sticky .logo img { width:80%;}
+
+.welcome-lft h1 { font-size: 26px; line-height: 34px;}
+.welcome-rht-btm { text-align:center;}
+.welcome-rht-btm p { width:100%; margin-bottom:15px;}
+.welcome-lft p { line-height: 26px;}
+.welcome-rht-btm a.read-link { float:none;}
+.welcome-pad {padding-bottom: 30px; padding-top:30px;}
+.facil-link ul li {font-size: 15px;}
+.facil-link ul li a {min-height: 120px;}
+.infra-txt { position:relative; width:100%;}
+.infra-home { margin-bottom: 20px;}
+.news-sec { padding:40px 0;}
+#news-sec .owl-nav { top:30%;}
+#news-sec.owl-theme .owl-controls .owl-nav .owl-prev { left:0;}
+#news-sec.owl-theme .owl-controls .owl-nav .owl-next { right:0;}
+
+.hdr-inn { padding: 10px 20px 10px 20px;}
+.logo { width: 40%;}
+.color-list ul li a {line-height: 20px; font-size: 18px; min-height: 160px;}
+.color-list ul li a img { width: 55px;}
+
+.map{ margin-top:25px;}
+.contact{ margin:30px 0 0 0;}
+.contact h2{ margin-bottom:30px;}
+.departments ul li .dept-cnt{padding: 40px 10px 25px 10px;}
+.departments ul li .dept-cnt h3{ font-size:15px;}
+footer ul.foot-top li ul.foot-social li{ margin-bottom:13px;}
+footer ul.foot-top li{ padding-left:15px;}
+.foot-links ul li{ width:24%;}
+.foot-links ul li h2{ font-size:15px;}
+
+.infrastructure-facilities .left,.infrastructure-facilities .right{width:100%; padding:0;}
+.infrastructure-facilities .right{margin-bottom:20px;}
+.infrastructure-facilities-more li{width:48.75%;}
+.infrastructure-facilities-more li:nth-child(3n-3){margin-right:2.5%;}
+.infrastructure-facilities-more li:nth-child(2n-2){margin-right:0%;}
+
+
+.inner-page-content.profile .left {width: 100%;padding-right: 0;}
+.profile .profile-desc{width:100%; padding-right:0; margin:0 0 20px;}
+.profile .profile-img{width:100%; text-align:center;}
+.inner-page-content.profile .right{width:50%; margin:25px 25% 0 0; height:auto !important;}
+.inner-page-content h2.main-title{text-align:center; margin-bottom:20px;}
+
+.students-review {width: 100%; margin-bottom:20px;}
+.vip-review{width: 100%;}
+
+.social-lft {width: 70%;}
+footer .foot-social li {margin-right: 8px;}
+.social-rgt {width: 30%;}
+.sticky-wrapper {height: auto !important;}
+.nabh-logo ul li.slider-img { display:none;}
+.news-sec .item .news-cont { min-height: 190px;}
+.birth-bg::after { background:none;}
+.birth-bg h4 { width:100%;}
+.owl-carousel.wish .owl-item img {width: 28%;}
+.birthday-txt { width: 63%;}
+
+.profile .profile-img { float:left; width:50%; margin:0 35% auto;}
+.inner-banner .row {min-height: 220px;}
+.profile .message-cont .profile-desc { width:100%; padding:0; margin-top:15px;}
+.coe-cont li { min-height:355px;}
+#sb_instagram .sb_instagram_header h3.sbi_no_bio { display:none;}
+.reg-block.wid-mod {width: 100%;margin-top: 2%;}
+.reg-block.wid-mod.wid-pad {margin-left: 0;}
+.reg-block.wid-mod select {width:151px;}
+.online-reg input[type="text"], .online-reg input[type="date"], .online-reg select { width:151px;}
+.reg-block.reg-div ul li lable{ width:160px;}
+.reg-block.reg-div ul li select {width: 151px;}
+.reg-block.wid-mod select {width: 151px;}
+.reg-block.pre-ference ul li select {width: 90%;}
+}
+/* Smaller than standard 1024 (devices and browsers) */
+@media screen and (max-width:767px) {
+img {max-width:100%; }
+.row { width:95%; }
+.mobNav { display:block;}
+.m-menu {display: block;}
+.menu-wrap{display: none;}
+.m-menu{ position:absolute; right:35px; top:20px; margin-top:0;}
+
+.is-sticky .hdr-inn { padding:10px 20px;}
+.is-sticky .logo-top { display:block;}
+.is-sticky .nabh-logo { display:none;}
+.is-sticky .logo img { width:auto;}
+
+.logo { width: 50%;}
+.hdr-inn { padding-bottom: 10px; padding-left: 20px; padding-right: 20px; padding-top: 10px;}
+
+header {height: 100px;}
+.nabh-logo { display:none;}
+.flexslider { min-height:auto;}
+.color-list ul li { width:25%;}
+
+.color-list ul li { width:33.33%;}
+.flex-caption h1 {font-size: 30px; line-height: 34px;}
+.flex-caption h2 {font-size: 28px; line-height: 28px;}
+
+.welcome-lft h1 {font-size: 28px; line-height: 38px;}
+.welcome-lft {width: 100%; margin-bottom:15px;}
+.welcome-rht {width: 100%; margin-left:0; margin-top: 2%;}
+.m-top-20 { margin-top:0;}
+.welcome-pad {padding-bottom: 20px; padding-top:30px;}
+.infra-txt { position:relative; width:100%;}
+.facil-link ul li { width:32%; margin-bottom:10px; float:left;font-size: 18px;}
+.facil-link ul li:nth-child(3n+3) { margin-right: 0;}
+.facil-link ul li a {min-height: 80px;}
+/*.facil-link ul li:last-child { float:none;}*/
+.infra-home { margin-bottom: 20px;}
+.infra-txt h2 {font-size: 30px; line-height: 32px;}
+.btn-filter-wrap .btn-filter {font-size: 14px; padding: 10px 20px;}
+.news-sec .item .news-cont { min-height:202px;}
+#news-sec { margin-bottom:15px;}
+.news-sec { padding:30px 0;}
+#news-sec .owl-nav { top:30%;}
+#news-sec.owl-theme .owl-controls .owl-nav .owl-prev { left:0;}
+#news-sec.owl-theme .owl-controls .owl-nav .owl-next { right:0;}
+
+.inner-banner .row{min-height:120px;}
+.inner-banner h1{font-size:30px;}
+.infrastructure-facilities{padding:30px 0 50px;}
+.infrastructure-facilities .right h2 {padding-bottom: 15px;margin-bottom: 15px;font-size: 20px;}
+.infrastructure-facilities .left,.infrastructure-facilities .right{width:100%; padding:0;}
+.infrastructure-facilities .right{margin-bottom:20px;}
+.infrastructure-facilities-more li{width:48.75%; min-height:480px;}
+.infrastructure-facilities-more li:nth-child(3n-3){margin-right:2.5%;}
+.infrastructure-facilities-more li:nth-child(2n-2){margin-right:0%;}
+.infrastructure-facilities-more{padding:30px 0;}
+.infrastructure-facilities-more h2{font-size:28px; margin:0 0 20px;}
+.infrastructure-facilities .right p{font-size:15px;}
+.inner-banner h1{padding:40px 0 0; text-align:center; position:static;}
+.inner-banner .bGrm{display:none;}
+
+.inner-page-content{padding:30px 0;}
+.inner-page-content.profile .left {width: 100%;padding-right: 0;}
+.profile .profile-desc{width:100%; padding-right:0; margin:0 0 20px;}
+.profile .profile-img{width:100%; text-align:center;}
+.inner-page-content.profile .right{width:70%; margin:25px 15% 0 0; height:auto !important;}
+.inner-page-content h2.main-title{text-align:left; margin-bottom:20px; font-size:24px;}
+.profile p.mtop45{margin:15px 0 0;}
+
+.students-review {width: 100%; margin-bottom:20px;}
+.vip-review{width: 100%;}
+
+.birthday-wish {width: 100%;margin-bottom:20px;}
+.topper-list{width: 100%;}
+
+.contact-lft {width: 100%;float: left;margin-right: 0;}
+.contact-rht {width: 100%;float: right;}
+.contact,.departments{ margin:30px 0 0 0;}
+.contact h2{ margin-bottom:25px;}
+.contact .contact-inner li{ margin-bottom:10px;}
+.contact-inner{ margin-bottom:20px;}
+.map{ margin-top:40px;}
+.map iframe { height:250px;}
+.departments ul li .dept-cnt {padding: 40px 10px 20px 10px; min-height: 130px;}
+.departments ul li {width: 48%; float:left; margin-right:4%;}
+.departments ul li:nth-child(3n+3){ margin-right:4%;}
+.departments ul li:nth-child(2n+2){ margin-right:0;}
+.departments ul li .dept-cnt h3{ font-size:18px; line-height:22px;}
+footer ul.foot-top{ display:inline-block;}
+footer ul.foot-top li.cont {padding-left: 0px;width: 100%;}
+footer ul.foot-top li {float: left;width: 100%;}
+footer ul.foot-top li{ border-right: none;}
+footer ul.foot-top li{ padding-left:0;}
+footer ul.foot-top {padding: 15px 0 0;}
+footer ul.foot-top li.cont {padding-left: 0px;width: 100%;border-bottom: 1px solid #30302e; padding-bottom: 10px; margin-bottom: 20px;}
+footer ul.foot-top li.dept {padding-left: 0px;width: 50%;border-bottom: none; padding-bottom: 10px; margin-bottom: 0px;}
+footer ul.foot-top li:last-child {border-right: none;width:100%;}
+span.await-txt { bottom:18px;}
+footer ul.foot-top li ul.foot-social li{ margin-right:9px;}
+.foot-links ul li a {padding: 20px 5px;}
+.foot-links ul li h2{ font-size:14px;}
+.foot-links ul li{ width:24%;}
+.foot-links ul li a img { width:40px;}
+.foot-links ul li:nth-child(2n) a img { width:34px;}
+footer ul.foot-top li.cont ul li{ font-size:13px; margin-bottom:8px;}
+footer ul.foot-top li h1{ font-size:20px;}
+footer ul.foot-top li h2{margin: 0px 0px 12px;}
+footer ul.foot-top li.dept ul li a{ font-size:13px;}
+.contact-form input#name {padding: 8px 10px;}
+footer .main-btm > p {font-size: 14px;}
+.top-list { display:none;}
+header { background:#ffffff; height:auto; padding-top:0;}
+.login-cont li:nth-child(3n+3) {margin-right: 2%;}
+.login-cont li:nth-child(2n+2) {margin-right: 0%;}
+.login-cont li{ width:48.7%;}
+.clubs-cont ul li{ width:49%;}
+.clubs-cont ul li:nth-child(3n+3) {margin-right: 2%;}
+.clubs-cont ul li:nth-child(2n+2) {margin-right: 0;}
+.profile .message-cont .profile-img {width: 100%;}
+.profile .message-cont .profile-desc {padding: 0px;width: 100%; margin:20px 0 0 0;}
+.message-cont{ margin-bottom:0;}
+.dept-container .mix .faculty-list-cnt {width: 50%;float: left;}
+.dept-container .mix .ach-list-cnt h2{ margin-bottom:10px;}
+.model-nuber {overflow-x: scroll;}
+.model-nuber table {width: 650px;overflow-x: scroll;float: left;}
+.sticky-wrapper {height: auto !important;}
+
+.profile .profile-img { float:left; width:50%; margin:0 25% auto;}
+.social-lft { width:100%; text-align:center;}
+footer .social h2 { float:none; margin-bottom:20px;}
+.social-lft.social-rgt { margin-top:20px;}
+footer .foot-social { float:none;}
+.coe-cont li { width:49%; margin-right:2%;}
+.coe-cont li:nth-child(3n+3) { margin-right:2%;}
+.coe-cont li:nth-child(2n+2) { margin-right:0;}
+.reg-block.wid-mod {width: 100%; margin-top: 2%;}
+.reg-block.wid-mod.wid-pad {margin-left: 0;}
+.inner-page-content .reg-block{padding: 24px 15px 20px 15px;}
+.reg-block.reg-div ul {float: left;width: 100%;}
+.reg-block.wid-mod select {width: 200px;}
+.online-reg input[type="text"], .online-reg input[type="date"], .online-reg select {width: 200px; margin-right: 0;}
+.reg-block.reg-div ul li select { width: 200px;}
+.reg-block.pre-ference ul li select {width: 90%;}
+.xl {width: 100%;float: left;margin-top: 10px;}
+.per-add{ padding:10px 5px;}
+} 
+
+/* Mobile Landscape Size (devices and browsers) */
+@media screen and (max-width:639px) {
+.row { width:94%; }
+
+.logo { width: 60%;}
+.hdr-inn { padding-bottom: 10px; padding-left: 20px; padding-right: 20px; padding-top: 10px;}
+.m-menu { right:15px; top:20px;}
+
+.hdr-inn { padding:0; margin:10px 0;}
+.is-sticky .hdr-inn { padding:0; margin:10px 0;}
+.flexslider .slides li img { height:auto;}
+
+
+.color-list ul li { width:33.33%;}
+.facil-link ul li {font-size: 16px;}
+.flex-control-nav { bottom: 10px; }
+.flex-caption h1 {font-size: 25px; line-height: 32px;}
+.flex-caption h2 {font-size: 22px; line-height: 24px;}
+
+.welcome-rht-btm { text-align:center;}
+.welcome-rht-btm p { width:100%; margin-bottom:15px;}
+.welcome-rht-btm a.read-link { float:none;}
+.infra-txt h2 { font-size: 28px; line-height: 34px;}
+.infra-txt { top:-30px; padding:30px 25px;}
+.facil-link { margin-top:0;}
+.btn-filter-wrap .btn-filter { margin-bottom:10px; }
+.news-sec .item .news-cont { min-height:inherit;}
+.btn-filter-wrap { margin-bottom: 15px;}
+.toppers .item .person-txt h2 {font-size: 18px;line-height: 28px;}
+
+.infrastructure-facilities-more li{width:100%; min-height:auto; margin-right:0 !important;}
+.inner-page-content.profile .right{width:100%; margin:25px 0% 0 0; height:auto !important;}
+
+.departments ul li .dept-cnt h3{ font-size:17px; line-height:22px;}
+
+.foot-links {padding: 30px 0px 10px 0;}
+footer ul.foot-top li.dept {padding-left: 0px;width: 100%;border-bottom: 1px solid #30302e; padding-bottom: 10px; margin-bottom: 20px;}
+footer ul.foot-top li:last-child {border-right: none;width: 100%;}
+footer ul.foot-top { padding: 15px 0 25px;}
+
+.dept-lft {width: 100%; margin-bottom:20px;}
+footer ul.foot-top li.dept { padding:0px; border:none; margin:0px;}
+span.await-txt {bottom:0px;}
+.social-lft {width:100%; text-align:center; margin-bottom:20px;}
+footer .foot-social { float:none;}
+footer .social h2{ float:none; margin:0px 0px 10px 0px;}
+footer .foot-social li { margin:0px 6px;}
+.social-rgt{width:100%; text-align:center; margin-bottom:0px;}
+.social {padding: 15px 0px;}
+
+/*centre-of-excellence*/
+.coe-cont li{width:49%; min-height:360px;}
+.coe-cont li:nth-child(3n+3) {margin-right: 2%;}
+.coe-cont li:nth-child(2n+2) {margin-right: 0;}
+/*centre-of-excellence end*/
+
+/*Infrastructure*/
+.gallery ul li {width: 49%;}
+.gallery ul li:nth-child(2n+2) { margin-right:0;}
+.gallery ul li:nth-child(3n+3) { margin-right:2%;}
+.gallery.auditorium-img ul li{width:29.5%;}
+/*Infrastructure end*/
+.foot-links ul li {width: 49%; margin-bottom:15px;} 
+.foot-links ul li:nth-child(2n){ border-right:none;}
+.inner-page-content h2.main-title { margin-bottom: 10px; font-size: 20px; line-height: 28px;}
+.inner-page-content.profile .right h2{font-size: 28px;}
+.placement .dept-container.rec .mix {width: calc(25% - 20px);}
+.dept-container .mix .ach-list-img {width: 100%;float: left;}
+.dept-container .mix .ach-list-cnt {width: 100%;float: left;}
+
+.profile .profile-img { margin:0 auto; width:100%; }
+.profile .profile-img img { width:100%;}
+.gry-highlite > br{ display:none;}
+.dept-container .mix .plus {right: 5px; top: 10px;}
+.faculty h4 { width:auto;}
+.faculty .selectBox {width: 40%;}
+ul.drop-list li { width:100%; margin-right:0;}
+
+.recruiters-img ul li { width: 47%;}
+}
+
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media screen and (max-width:479px) {
+.flex-caption ul{ display:none;}
+
+.logo { width: 70%;}
+.m-menu {top: 15px; right:10px;}
+.flex-control-nav { bottom: 5px;}
+.flex-caption {display:none;}
+.color-list ul li { width:50%;}
+.color-list ul li a {min-height: 180px;}
+.welcome-lft h1 {font-size: 28px; line-height: 34px;}
+.facil-link ul li { width:100%;}
+.facil-link ul li a {min-height: 80px;}	
+
+.departments ul li {width: 100%; margin-right: 0;}
+.departments ul li .dept-cnt {min-height: auto;}
+.departments.infre-dept ul li {width: 100%;margin-right: 0;}
+
+/*centre-of-excellence*/
+.coe-cont li{width:100%; margin-right:0; min-height:inherit;}
+.coe-cont li:nth-child(3n+3), .coe-cont li:nth-child(2n+2) { margin-right:0;}
+
+/*centre-of-excellence end*/
+/*Infrastructure*/
+.inner-page-content h3{font-size: 19px;}
+.gallery ul li{width: 100%; margin-right:0;}
+.gallery.news ul li img { width:100%;}
+.gallery.auditorium-img ul li{width:48%;}
+.gallery.auditorium-img ul li:nth-child(3n+3) {margin-right: 5px;}
+.inner-page-content.profile .right h2{font-size: 24px;}
+/*Infrastructure end*/
+.downloads .application-list li p{ width:85%;}
+ul.down-icon-list{ display:inline-block;}
+ul.down-icon-list li{ width:100%; border-right:none; border-bottom:1px solid #e0e0e0;}
+ul.down-icon-list li:last-child{ border-bottom: none;}
+ul.down-icon-list li a{ padding:10px 15px;}
+.login-cont li{ width:100%;}
+.clubs-cont ul li{ width:100%;}
+.faculty .selectBox {width: 100%;float: left;text-align:left;}
+.faculty h4{width: 100%;float: left; margin-bottom: 20px;}
+.faculty .selectBox select { width:100%;}
+.placement .dept-container.rec .mix {width: calc(50% - 20px);}
+.inner-banner h1{ display:none;}
+.faculty h5{ font-size:17px; line-height:24px;}
+.dept-container .mix .faculty-list-cnt { width: 100%;float: left;}
+
+.stud-img, .birthday-img { float: left; text-align: center; width: 100%;}
+.students-review, .vip-review { min-height:inherit;}
+.students-review .stud-txt, .vip-review .stud-txt, .birthday-txt { width:100%; margin-top: 10px;}
+.owl-carousel.students .owl-item img, .owl-carousel.vip .owl-item img, .owl-carousel.wish .owl-item img { width:40%;}
+.birth-bg::after { background:none;}
+.birth-bg h4 { width:100%;}
+.dept-container .mix .faculty-list-img { width:100%;}
+.reg-block.wid-mod.wid-pad ul li lable{ width:100%;}
+.online-reg input[type="text"], .online-reg input[type="date"], .online-reg select { margin-right: 0; width: 100%;}
+.reg-block.wid-mod select {width: 100%;}
+.reg-block.reg-div ul li lable {width: 100%;}
+.reg-block.reg-div ul li select {width: 100%;}
+.gender {width: 100%;float: left;}
+.sch {width: 100%;float: left;}
+.reg-block.pre-ference ul li {float: left;width: 100%;margin-bottom: 10px;}
+.online-reg label{ width:100%;}
+.reg-block.pre-ference ul li select {width: 100%;}
+.frm-btn input[type="button"]{ margin-bottom:15px;}
+.recruiters-img ul li { width: 46%;}
+/*14-11-19*/
+.foot-links ul li:nth-child(1) span{right:0px;right:70px;}
+.foot-links ul li:nth-child(2) span{right:0px;right:80px;}
+.foot-links ul li:nth-child(3) span{right:0px;right:70px;}
+.foot-links ul li:nth-child(4) span{right:0px;right:70px;}
+}
+@media screen and (max-width:359px) {
+/*Infrastructure*/
+.inner-page-content h3{font-size: 19px;}
+.gallery ul li{width: 100%; margin-right:0;}
+.gallery ul li:nth-child(3n+3) { margin-right:0;}
+.gallery.auditorium-img ul li{width:50%;}
+.recruiters-img ul li { width: 100%; margin-right:0;}
+/*Infrastructure end*/
+.foot-links ul li:nth-child(1) span{right:0px;right:35px;}
+.foot-links ul li:nth-child(2) span{right:0px;right:40px;}
+.foot-links ul li:nth-child(3) span{right:0px;right:35px;}
+.foot-links ul li:nth-child(4) span{right:0px;right:35px;}
+}

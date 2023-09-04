@@ -1,0 +1,47 @@
+body { overflow-x: hidden; }
+.thank-txt { float:left; width:100%; text-align:center;  padding:40px 0; }
+.thank-txt h5 {color: #272467;font-size:30px;font-family: 'Barlow-Light';line-height: 44px;margin-bottom: 15px;}
+.thank-txt p  {font-size: 18px;color: #000;font-family: 'robotoslab-regular';padding-bottom:10px;line-height:34px;}
+.thank-txt p a {font-family: 'robotoslab-regular';padding:10px 25px;line-height:20px;}
+.video-pad { float:left; width:100%; text-align:center;  padding-bottom:20px; }
+.adms-form { float:left; width:100%; }
+.contact.m0 { margin:0px; }
+.contact .adms-form h2 { margin-bottom: 50px; }
+
+.adms-form .form-group { float:left; width:100%; padding: 0 0 15px 0px;}
+.adms-form .form-group label{ float:left; width:170px; color: #000000; font-family: 'robotoslab-regular'; font-size:15px; line-height:40px; }
+.adms-form .form-group label.none{ line-height:2px; }
+.adms-form .form-group span.wpcf7-form-control-wrap{ float:left; width:calc(100% - 200px); }
+.adms-form input[type="text"], .adms-form input[type="email"], .adms-form input[type="tel"], .adms-form select {padding:0 15px;width: 100%;border: 1px solid #f4f4f4;margin-top:0px; margin-bottom:0; font-family: 'Barlow-Regular'; font-size:15px; float: left;height: 40px; background: #f4f4f4; border-radius:3px;}
+.adms-form input[type="submit"] {color: #ffffff; font-size:15px;padding:0px 25px;display: inline-block; cursor:pointer; font-family: 'robotoslab-regular'; text-transform:uppercase; border:none; background:#23913b; width:auto; line-height:40px; text-align:center; transition: all 0.5s ease; margin-top:20px; position:relative;}
+.adms-form input[type="submit"]:hover{ background:#3f3a34; }
+.wpcf7-checkbox .wpcf7-list-item { margin:0px; padding:10px 0; }
+img.wpcf7-captchac {float: left;border: 1px solid #e0e0e0;padding: 5px;height: 40px;margin-right: 10px;}
+.adms-form .form-group span.wpcf7-form-control-wrap.captcha-82 { width:calc(100% - 260px); }
+.adms-form .form-group span.wpcf7-form-control-wrap.captcha-82 input { width: 150px; }
+span.wpcf7-not-valid-tip { clear:both; color: #f00; font-size:#161616; line-height: 15px; padding-top:2px; }
+div.wpcf7-response-output { clear:both; float:left; width:100%; margin:15px 0 0; padding:6px 15px; font-size:15px; line-height:20px; text-align:center; }
+div.wpcf7-validation-errors, .cbox div.wpcf7-acceptance-missing { background:#ffff55; color:#ff0000; }
+div.wpcf7-mail-sent-ok {  background:#398f14; color:#ffffff; }
+div.wpcf7-mail-sent-ng, div.wpcf7-aborted { /* background:#ff0000; color:#f7e700; */ background:#398f14; color:#ffffff; }
+div.wpcf7-spam-blocked {  background:#ffa500; color:#ff0000; }
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+.video-pad iframe { height:370px; }
+}
+
+@media screen and (max-width:767px) {
+	.video-pad iframe { height:340px; }
+}
+
+@media screen and (max-width:639px) {
+.video-pad iframe { height:300px; }
+.adms-form .form-group span.wpcf7-form-control-wrap { width: calc(100% - 170px); }
+}
+
+@media screen and (max-width:479px) {
+.video-pad iframe { height:260px; }
+.adms-form .form-group label { width:100%; line-height:20px; padding-bottom: 5px; }
+.adms-form .form-group span.wpcf7-form-control-wrap { width:100%; }
+.adms-form input[type="submit"] { margin-top:5px; }
+}

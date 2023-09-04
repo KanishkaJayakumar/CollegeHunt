@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+
+:root{
+    --orange:#eba13f;
+    --white:#fff;
+    --box-shadow: .5rem 1.5rem rgba(0,0,0,.1);
+}
+
+
+*{
+    font-family: 'Roboto',sans-serif;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    text-transform: capitalize;
+    transition: all.2s linear;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+
+}
+
+header{
+    position: relative;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    background: var(--orange);
+    padding: 1rem 7%;
+    display: flex;
+    align-items : center;
+    justify-content: space-between;
+    box-shadow: var(--box-shadow);
+}
+
+header .logo img
+{
+    height: 70px;
+}
+header .navbar a{
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 0.5rem 1.5rem;
+    color: var(--white);
+    border: .1rem solid transparent;
+}
+
+
+header .navbar a:hover{
+    color: #000;
+    border: .1rem solid #fff;
+    border-width: .5rem;
+}
+
+header .icons i{
+    cursor: pointer;
+    width: 4rem;
+    height: 4.5rem;
+    background-color: #fff;
+    text-align: center;
+    line-height: 5rem;
+    font-size: 2rem;
+    color: var(--orange);
+}
+
+header .icons i:hover{
+    color: #000;
+}
+
+.college .first{
+    flex-basis: 30%;
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+    margin-left: 80px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.college .second{
+    flex-basis: 30%;
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+    margin-left: 80px;
+    position: relative;
+    overflow: hidden;
+}
+.college img{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    padding-top: 70px;
+}
+ 
+.college h1{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 70px;
+    color: purple;
+}
+.college p{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 20px;
+    
+}
+.college .row4 h2{
+    margin-top: 20px;
+    font-size: 25px;
+    align-items: start;
+}

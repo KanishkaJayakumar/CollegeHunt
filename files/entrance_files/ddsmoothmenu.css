@@ -1,0 +1,74 @@
+.ddsmoothmenu{ float:left; font-size:14px; padding:0px 0; z-index:9999; width:100%; border-top:1px solid #e3e3e3; margin: 5px 0 0 0;}
+.ddsmoothmenu ul{margin: 0;padding: 0;list-style-type: none; }
+/*Top level list items*/
+.ddsmoothmenu ul li{ position: relative; list-style:none; float:left; margin:0px; padding:0; font-size:16px; color:#333; display:inline-block; }
+.ddsmoothmenu ul li:hover { background:#2d9646;}
+/*.ddsmoothmenu ul li a:hover { color:#ffffff; background:#2d9646;}*/
+.ddsmoothmenu ul li.selected a, .ddsmoothmenu ul li.current-menu-item a, .ddsmoothmenu ul li.current-menu-ancestor a { color:#ffffff;}
+.ddsmoothmenu ul li ul.sub-menu li.current_page_item a { color:#ffffff!important; background:#2d9646;}
+.ddsmoothmenu ul li:after { position:absolute; display:block; content:""; left:50%; bottom:0px;  background: #2d9646; height:3px; width:0%; transition:all 0.4s ease; -webkit-transition:all 0.4s ease; -moz-transition:all 0.4s ease; -o-transition:all 0.4s ease;}
+/*.ddsmoothmenu ul li:hover:after { width:100%; left:0;}*/
+.ddsmoothmenu ul li.current-menu-item, .ddsmoothmenu ul li.current-menu-ancestor { background:#2d9646;}
+
+.rht-menu ul li.quote a:after { display:none;}
+.ddsmoothmenu ul li:last-child { border-right:0px; }
+
+
+.ddsmoothmenu ul li a{ position: relative; float:left; display: block; padding:18px 18px; margin:0px; font-size:17px; color:#1f1f1f; text-align:center; text-decoration: none; border-right:0  px solid #DBDBDB; font-family: 'Barlow-SemiBold';z-index: 9;}
+.ddsmoothmenu ul li:last-child a{ border-right:none;}
+* html .ddsmoothmenu ul li a{ display: inline-block;}
+.ddsmoothmenu ul li a.selected, .ddsmoothmenu ul li a.selected::after, .ddsmoothmenu li.current a, .ddsmoothmenu ul li:hover a { color:#ffffff; width: 100%; /*background:#26b39a;*/}
+
+
+/*1st sub level menu*/
+.ddsmoothmenu ul li ul{ box-shadow: 0px 2px 2px rgba(0,0,0,0.2); -webkit-box-shadow: 0px 2px 2px rgba(0,0,0,0.2); -moz-box-shadow: 0px 2px 2px rgba(0,0,0,0.2); position: absolute; left: 0; display: none; border: 0px solid #fff; border-bottom:none; width:230px!important; /*collapse all sub menus to begin with*/ }
+
+/*Sub level menu list items (undo style from Top level List Items)*/
+.ddsmoothmenu ul li ul li{ display: list-item; float: left; background:none; padding:0!important; height:auto; width: 100%; }
+.ddsmoothmenu ul li ul li.selected::after { display: none;}
+
+
+/* Sub level menu links style */
+.ddsmoothmenu ul li ul li a{ width:230px; /*width of sub menus*/ padding:8px 10px 8px 12px; margin: 0; border-bottom: 1px solid rgba(0, 0, 0, 0.12);/*border-top:1px solid #f9f9f9;*/
+background:#fff; color:#0d1b24 !important; font-size:15px; text-align:left; line-height:20px; border-right:none; font-family: 'Barlow-SemiBold';}
+.ddsmoothmenu ul li ul li a:hover{ background:#23913b; color:#ffffff!important; }
+.ddsmoothmenu ul li ul li a.selected { background:#23913b; color:#ffffff!important; }
+.ddsmoothmenu ul li ul li a.selected span { border-left: 5px solid #fff;}
+
+
+/*All subsequent sub menu levels vertical offset after 1st level sub menu */
+.ddsmoothmenu ul li ul li ul{ top: 0; margin:0px; padding:0px; } 
+.ddsmoothmenu ul li ul li ul li{ display: list-item; float: left; } 
+/* Holly Hack for IE \*/
+* html .ddsmoothmenu{height: 1%;} /*Holly Hack for IE7 and below*/
+
+/* ######### CSS classes applied to down and right arrow images  ######### */
+.downarrowclass{ position: absolute; top: 12px; right: 7px; }
+.rightarrowclass{ position: absolute; top: 6px; right: 5px; }
+
+/* ######### CSS for shadow added to sub menus  ######### */
+.ddshadow{ position: absolute; left: 0;top: 0; width: 0; height: 0; }
+.toplevelshadow{ /*shadow opacity. Doesn't work in IE*/ opacity: 0.8; }
+
+.ddsmoothmenu ul li.dropdown a span, .ddsmoothmenu ul li.menu-item-has-children::after { margin-top: -3px; left:inherit; background:none; position: absolute; z-index:10; right: 8px; top: 50%; border-left: 4px solid transparent; border-right: 4px solid transparent; border-top: 5px solid #8c8c8c;}
+.ddsmoothmenu ul li.dropdown:hover a span, .ddsmoothmenu ul li.menu-item-has-children:hover::after { border-top: 5px solid #ffffff;}
+
+.ddsmoothmenu ul li ul li.dropdown-inner a span, .ddsmoothmenu ul li ul li.menu-item-has-children::after { position: absolute; right: 10px; top: 18px; border-top: 4px solid transparent; border-bottom: 4px solid transparent; border-left: 5px solid #8c8c8c;}
+.ddsmoothmenu ul li ul li.dropdown-inner:hover a span, .ddsmoothmenu ul li ul li.menu-item-has-children:hover::after {
+   border-left: 5px solid #fff;
+    border-top: 4px solid transparent;
+	border-bottom: 4px solid transparent;
+}
+.ddsmoothmenu ul li.dropdown.selected a span, .ddsmoothmenu ul li.current-menu-item:after, .ddsmoothmenu ul li.current-menu-ancestor:after { border-top: 5px solid #ffffff; }
+
+.ddsmoothmenu ul li ul.long-menu, .ddsmoothmenu ul li.long-menu ul{ width:630px !important; background:#fff;}
+.ddsmoothmenu ul li ul.long-menu li, .ddsmoothmenu ul li.long-menu ul li{ float:left; width:33.33%; height:60px!important; }
+.ddsmoothmenu ul li ul.long-menu li a { width:100%!important;} 
+
+
+
+
+
+
+
+
